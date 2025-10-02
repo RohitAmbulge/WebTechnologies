@@ -19,4 +19,29 @@ display : flex
 justify-content
 align-items
 flex-direction: row / column
- in case of ro
+in case of ro
+
+
+Color :
+ ->name
+ ->hexadecimal(#___)
+ ->rgb(_,_,_) -->0-255
+ ->rgba(_,_,_,_)  --> a : opacity(0-1)
+
+Units :
+ 1.Absolute (px,cm,mm,inch)
+ 2.Relative (vw,vh,%) 
+
+ ->vw : viewport width
+ ->vh : viewport height
+
+Pseudo-class Selector :
+ 
+ div:first-child{}
+ div:nth-child(_){}
+ div:nth-child(odd){}
+ div:nth-child(even){}
+ a:link{}
+ a:visited{}
+ a:active{}
+ input:focus{}

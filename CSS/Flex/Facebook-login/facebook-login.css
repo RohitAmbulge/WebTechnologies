@@ -96,6 +96,10 @@ input[type="password"]{
     margin-top: 10PX;
 }
 
+input:focus{
+    background-color: aliceblue;
+}
+
 input[type="submit"]{
     background-color: #0866FF;
     border-style: none;
@@ -108,6 +112,15 @@ input[type="submit"]{
     padding-bottom: 10px;
     text-decoration: none;
     color: #0866FF;
+}
+
+/* #credentials > a:visited{
+    color: #248410;
+} */
+
+
+#credentials > a:active{
+    color: #0e2b08;
 }
 
 #credentials > a:hover{
