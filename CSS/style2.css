@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+}
+
+div{
+    height : 300px;
+    width : 300px;
+    background-color: aqua;
+}
+
+#one{
+    background-color: bisque;
+}
+
+#two{
+    background-color: brown;
+}
+
+#three{
+    background-color: blueviolet;
+}
+
+#four{
+background-color: rgb(196, 255, 228);
+}
+
+.yello{
+    background-color: chocolate;
+}
+
+.pink{
+    background-color: pink;
+}

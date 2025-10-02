@@ -1,0 +1,23 @@
+h1,h2,h3{
+    display: inline;
+}
+
+b,i,u{
+    display: block;
+}
+
+#box1{
+    height:300px;
+    width: 300px;
+    background-color: brown;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
+#box1,#box2{
+ display: inline-block;
+}

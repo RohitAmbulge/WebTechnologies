@@ -1,0 +1,51 @@
+#container{
+    width: 900px;
+    height: 905px;
+    border: 1px solid black; 
+}
+
+.sub-container div{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+}
+
+
+.sub-container{
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#top-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#middle-container{
+    display: flex;
+    justify-content: center;
+}
+
+#bottom-container{
+     display: flex;
+    justify-content: space-between;
+}
+
+#pink{
+    background-color: pink;
+}
+
+#brown{
+    background-color: brown;
+}
+
+#black{
+    background-color: black;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}

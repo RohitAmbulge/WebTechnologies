@@ -1,0 +1,8 @@
+h1{
+    color: chocolate;
+    text-align:justify;
+    text-decoration:line-through;
+    text-decoration-style:dotted;
+    text-decoration-color: blue;
+    text-decoration-thickness: 10px;
+}

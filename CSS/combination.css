@@ -1,0 +1,21 @@
+/* Selectors */
+
+/* Decendent  */
+/* section h1{
+    background-color: blueviolet;
+} */
+
+/* Child  */
+/* section > h1{
+    background-color: red;
+} */
+
+/* Adjacent */
+section + p{
+    background-color: blue;
+}
+
+/* General */
+section~p{
+    background-color: brown;
+}

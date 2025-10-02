@@ -1,0 +1,28 @@
+#main{
+    height: 800px;
+    width: 800px;
+    border: 1px solid black;
+}
+
+div{
+       display: flex;
+  align-items: center;     
+  justify-content: center;
+    height: 100px;
+    width: 100px;
+   
+    
+}
+
+.white{
+    background-color: white;
+}
+
+.green{
+    background-color: rgb(17, 161, 39);
+}
+
+#main section{
+    display: flex;
+
+}

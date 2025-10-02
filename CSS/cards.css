@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(177, 174, 174);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    
+}
+
+.card
+{
+    height: 400px;
+    width: 30%;
+    padding: 20px 10px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+
+h2{
+    text-align: justify;
+}
+img{
+   
+   height: 150px;
+   width: 40%;
+}
+
+.card .box1 img{
+    display: inline-block;
+}
+
+.card .box2 img{
+    display: inline-block;
+}

@@ -1,0 +1,22 @@
+Border : 
+border: 1px solid black;
+border-radius
+border-left
+border-style:
+
+Combination Selector : 
+1. Decendanr Selector (space)
+2. Child Selector (>)
+3. Adjacent Selector (+)
+4. General Selector (~)
+
+Display : 
+inline 
+block
+inline-block
+
+display : flex
+justify-content
+align-items
+flex-direction: row / column
+ in case of ro
