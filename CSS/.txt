@@ -45,3 +45,10 @@ Pseudo-class Selector :
  a:visited{}
  a:active{}
  input:focus{}
+
+ Positions:
+    1.Static (default)
+    2.Relative
+    3.Absolute
+    4.Fixed
+    5.Sticky

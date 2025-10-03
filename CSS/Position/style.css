@@ -1,0 +1,66 @@
+/* #box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+} */
+
+/* Absolute */
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+article{
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+    /* background-color: yellow; */
+    position: absolute;
+}
+
+#container{
+    height: 400px;
+    width: 100%;
+    background-color: green;
+}
