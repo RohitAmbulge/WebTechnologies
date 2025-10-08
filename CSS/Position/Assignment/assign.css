@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(196, 196, 176);
+
+}
+
+
+
+img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}

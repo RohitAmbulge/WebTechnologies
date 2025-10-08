@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    top: 0;
+}
+
+main{
+    height: 500vh;
+    width: 100%;
+    background-color: gray;
+    /* margin-top: 130px; */
+}
+
+section{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    margin-top: 130px;
+
+}
+
+article{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    position: sticky;
+    top: 100px;
+}

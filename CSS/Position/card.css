@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 850px;
+    width: 100%;
+    border:1px solid black;
+}
+
+#bannerimg{
+    height: 500px;
+    width: 100%;
+}
+
+#cards-container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 1px solid green;
+    
+}
+
+#card1{
+    height: 350px;
+    width: 300px;
+    background-color: red;
+}
+
+#card2{
+    height: 350px;
+    width: 300px;
+    background-color: black;
+}
+
+#card3{
+    height: 350px;
+    width: 300px;
+    background-color: blue;
+}

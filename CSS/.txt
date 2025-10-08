@@ -52,3 +52,10 @@ Pseudo-class Selector :
     3.Absolute
     4.Fixed
     5.Sticky
+
+
+transform:
+   scale()
+   translate()
+   rotate()
+   skew()

@@ -1,0 +1,51 @@
+h1::first-letter
+{
+    color: red;
+}
+
+p::first-line{
+    color: red;
+}
+
+h1::after{
+    content: "❤️‍🩹";
+}
+
+h1::before{
+    content: "❤️‍🔥";
+}
+
+p::before{
+    content: "(❁´◡`❁)";
+}
+
+p::after{
+    content: "(●'◡'●)";
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+input::placeholder{
+    color: green;
+}
+
+[type]{
+    border: 2px solid blue;
+}
+
+[type="mail"]{
+    border: 2px solid green;
+}
+
+[id^="main"]{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 1px;
+}
+
+[id$="box1"]{
+    background-color: brown;
+}

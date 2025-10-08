@@ -21,6 +21,11 @@ div:hover{
     width: 155px;
     border: 1px solid black;
     box-shadow: 0px 5px 10px gray;
+    z-index: 1;
+    background-color: white;
+    transform: scaleX(2px) scaleY(2px);
+    transition-duration:800ms;
+    
 }
 
 #A{
@@ -29,6 +34,9 @@ div:hover{
     left: 45%;
     padding-right: 10px;
 }
+
+
+
 #K{
     position: absolute;
     top: 250px;
