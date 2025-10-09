@@ -9,12 +9,17 @@ body{
     height: 150vh;
 }
 
-#main{
+#main ,#about-section{
     height: 115vh;
     width: 100%;
     /* background-color: blue; */
      background: #181830;
     background: linear-gradient(132deg, rgba(24, 24, 48, 1) 0%, rgba(83, 28, 128, 1) 35%, rgba(24, 24, 48, 1) 100%);
+}
+
+#about-section{
+    background: #0f2438;
+background: linear-gradient(139deg, rgba(15, 36, 56, 1) 15%, rgba(88, 51, 210, 1) 51%, rgba(15, 36, 56, 1) 88%);
 }
 
 header{
@@ -24,7 +29,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    
 }
 
 #left-header{
@@ -107,9 +112,21 @@ header{
 
 }
 
+
+
 #left-container>h1{
     font-size:3.5vw;
     color:#FFFFFF;
+    animation-name: h1;
+    animation-duration: 1s;
+    animation-timing-function:cubic-bezier(0.165, 0.84, 0.44, 0);
+    animation-iteration-count: 1;
+}
+
+@keyframes h1{
+    to{
+        transform: translateY(-10px);
+    }
 }
 #left-container>h2{
     font-weight:normal;
@@ -120,7 +137,7 @@ header{
     color: #939FAF;
 }
 
-#left-container>div>button{
+button{
     padding: 15px 25px 15px 25px;
     border-radius: 10px;
     border-style: none;
@@ -128,7 +145,7 @@ header{
     font-size: medium;
     color: #FFFFFF;
     margin-right: 10px;
-    
+    text-decoration: none;
 }
 
 #left-container>div :nth-child(1){
@@ -142,6 +159,8 @@ background: linear-gradient(158deg, rgba(120, 37, 207, 1) 17%, rgba(88, 51, 210,
     color: #8750BA;
     
 }
+
+
 #right-container{
     width: 30%;
     height: 60%;
@@ -153,6 +172,36 @@ background: linear-gradient(158deg, rgba(120, 37, 207, 1) 17%, rgba(88, 51, 210,
    align-items:center;
    justify-content:end;
     
+}
+
+#ring1{
+    animation-name: ring1;
+    animation-duration: 1s;
+    /* animation-direction: alternate; */
+    animation-iteration-count: 1;
+}
+
+@keyframes ring1{
+    from{
+        transform: translateX(30px);
+    }
+   
+}
+
+#ring3{
+     animation-name: ring3;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.675);
+    /* animation-timing-function:cubic-bezier(1, 0, 0, 1); */
+}
+
+@keyframes ring3{
+    from{
+        transform: scale(0);
+    }
+   
 }
 
 #right-container>div{
@@ -202,3 +251,7 @@ footer{
     height: 35%;
     background-color: #16182C;
 }
+
+/* About Me */
+
+

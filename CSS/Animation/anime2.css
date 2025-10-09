@@ -1,11 +1,19 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 div{
     height: 300px;
     width: 300px;
     background-color: red;
     animation-name: box;
-    animation-duration: 1s;
+    animation-duration:10s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
 }
 
 @keyframes box{
@@ -14,13 +22,13 @@ div{
         background-color: black;
         border-radius: 20%;
     }
-    25%{
-        transform: rotate(1800deg);
+    50%{
+        transform: rotate(180deg);
         background-color: blue;
         border-radius: 20%;
     }
-    25%{
-        transform: rotate(2700deg);
+    75%{
+        transform: rotate(270deg);
         background-color: green;
         border-radius: 30%;
     }

@@ -11,22 +11,26 @@ div{
     width: 200px;
     background-color: red;
     transition-duration: 3s;
-}
-
-/* div:hover{
-    transform: scale(-2);
-    border-radius: 50%;
-    background-color: hotpink;
-} */
-
-div{
     /* transition-delay: 2s; */
-    transition-timing-function:ease-in-out;
+    transition-timing-function:ease-in-out; 
+    
 }
 
 div:hover{
-    /* transform: rotate(360deg); */
-    /* transform: translate(200px, 200px); */
-    transform: skew(360deg);
+    /* transform: scale(2);
+    border-radius: 50%;
+    background-color: hotpink; */
+}
+
+div{
+    /* transition-delay: 2s; */
+    /* transition-timing-function:ease-in-out; */
+}
+
+div:hover{
+     border-radius: 50%;
+    transform: rotate(360deg);
+    transform: translate(200px, 200px);
+    /* transform: skew(360deg); */
 
 }
