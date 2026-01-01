@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main{
+     width: 100%;
+    height: 100vh;
+    border: 2px s
+    olid black;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid red; */
+}
+
+footer{
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid rgb(10, 215, 99); */
+    background-color: #FAFBFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-container{
+    height: 100%;
+    width: 85%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#left{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    /* flex-direction: column; */
+}
+
+/* #left-one > p{
+    color: #777986;
+    padding-bottom: 8px;
+    margin: 0;
+    
+} */
+
+#left-one{
+    display: flex;
+    flex-direction: column;
+}
+#left-one >a{
+    text-decoration: none;
+    color:  #777986;
+    padding-bottom: 10px;
+    /* padding: 0;
+    margin: 0; */
+}
+
+#right{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+#left-two{
+    display: flex;
+    flex-direction: column;
+}
+#left-two >a{
+    text-decoration: none;
+    color:  #777986;
+    padding-bottom: 10px;
+    /* padding: 0;
+    margin: 0; */
+}
+
+#left > div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+#right>div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid brown; */
+}
+
+#right-one>div>a>img{
+    width: 48%;
+    height: 10%;
+}

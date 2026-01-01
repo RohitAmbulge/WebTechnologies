@@ -1,0 +1,4 @@
+<input> elements do NOT have innerText
+innerText is for elements like <p>, <div>, <li>
+👉 For inputs, you must use .value
+
