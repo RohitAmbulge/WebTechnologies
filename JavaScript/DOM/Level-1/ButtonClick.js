@@ -88,28 +88,38 @@
 
 //! Add List Item
 //! Input + button → add text as a new <li> in <ul>.
-const list = document.getElementById("list");
-const input = document.querySelector("input");
+// const list = document.getElementById("list");
+// const input = document.querySelector("input");
 
-const btn = document.querySelector("#inbtn");
+// const btn = document.querySelector("#inbtn");
 
-btn.addEventListener("click", () => {
-  console.log(input.value);
-  const value = input.value.trim();
-  if ( value === "") {
-    console.log("Please Enter Text");
-    return;
-  }
+// btn.addEventListener("click", () => {
+//   console.log(input.value);
+//   const value = input.value.trim();
+//   if ( value === "") {
+//     console.log("Please Enter Text");
+//     return;
+//   }
 
-  let item = document.createElement("li");
-  item.innerText = value;
-  item.style.background = "red";
-  list.appendChild(item);
-  input.value = ""
-});
+//   let item = document.createElement("li");
+//   item.innerText = value;
+//   item.style.background = "red";
+//   list.appendChild(item);
+//   input.value = ""
+// });
 
-// Remove Element
-// Button to remove a paragraph from the page.
+//! Remove Element
+//! Button to remove a paragraph from the page.
+// const btn = document.querySelector("button");
+// const p= document.querySelector("p");
+// btn.addEventListener("click",()=>{
+//   p.remove() ;
+// })
 
-// Disable Button
-// Disable a button after it is clicked once.
+//! Disable Button
+//! Disable a button after it is clicked once.
+const btn = document.querySelector('button')
+btn.addEventListener("click",()=>{
+  btn.disabled = 'true';
+  btn.innerText = 'Disabled';
+})
