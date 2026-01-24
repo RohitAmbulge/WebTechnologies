@@ -4,7 +4,10 @@ let ChangeTheme =()=>{
 
     let [theme, setTheme] = useState(false);
     return(
-        <button style={{backgroundColor : theme ? "black" : "white"}} className="border-2" onClick={()=>{setTheme(!theme)}}>click</button>
+        <div className={`min-h-screen flex items-center justify-center ${theme ? "bg-black text-white" : "bg-white text-black"}`}>
+             <button onClick={()=>{setTheme(!theme)}}  className="border-2 m-10 px-3 py-3" >click</button>
+        </div>
+       
 
     )
 }

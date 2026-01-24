@@ -1,3 +1,4 @@
+import EventTask from "./components/eventTask/EventTask";
 import StateIntro from "./components/intro/state/StateIntro"
 
 let App =()=>{
@@ -5,7 +6,8 @@ let App =()=>{
         <>
         <h1>Tasks</h1>
         <StateIntro></StateIntro>
-        
+        <br />
+        <EventTask></EventTask>
         </>
         
     )
